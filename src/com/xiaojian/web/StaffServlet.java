@@ -34,7 +34,7 @@ import net.sf.json.JSONObject;
 /**
  * Servlet implementation class StaffSaveServlet
  */
-public class StaffServlet extends HttpServlet {//员工Servlet
+public class StaffServlet extends HttpServlet {//员工
 	DbUtil dbUtil = new DbUtil();
 	DateUtil dateUtil = new DateUtil();
 	StaffDao staffDao = new StaffDao();
